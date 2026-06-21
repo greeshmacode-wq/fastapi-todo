@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel #pydantic ->validation  
 
 class TodoBase(BaseModel):
     title: str
